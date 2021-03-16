@@ -4,7 +4,9 @@ import card from '../assets/card.jpg';
 const BizCard = () => {
   return (
     <div className="Display-BizCard">
-      <img src={card} alt="business card" />
+
+      <img className="center-fit" src={card} alt="business card" />
+
     </div>
   )
 }
