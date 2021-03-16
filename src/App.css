@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: Futura;
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
 }
 
 a {
@@ -19,8 +19,16 @@ a:hover {
 }
 
 .Navigation {
-  width: 80vw;
-  margin: 5% 40%;
+  width: 50vw;
+  margin: 1% 27%;
+  display: flex;
+}
+
+.Navigation a {
+  letter-spacing: 5px;
+  width: 20vw;
+  font-size: large;
+  font-weight: 500;
 }
 
 .center-fit img {

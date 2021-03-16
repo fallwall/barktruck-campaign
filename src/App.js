@@ -1,6 +1,7 @@
 import logo from './assets/logo.svg';
 import background from './assets/background.svg';
 import { Route, Link } from 'react-router-dom';
+import Truck from './displays/Truck';
 import Insta from './displays/Insta';
 import BizCard from './displays/BizCard';
 import Menu from './displays/Menu';
@@ -14,13 +15,13 @@ function App() {
         <img src={logo} alt="logo of BarkTruck" />
       </div>
       <div className="Navigation">
-        <Link to="/"> Home </Link> |
-        <Link to="/insta"> InstaAd </Link> |
-        <Link to="/bizcard"> BizCard </Link> |
-        <Link to="/menu"> Menu </Link>
+        <Link to="/"> | Truck | </Link>
+        <Link to="/insta"> | InstaAd | </Link>
+        <Link to="/bizcard"> | BizCard | </Link>
+        <Link to="/menu"> | Menu | </Link>
       </div>
       <div className="Display">
-        <Route exact path="/" render={() => <Insta />} />
+        <Route exact path="/" render={() => <Truck />} />
         <Route path="/insta" render={() => <Insta />} />
         <Route path="/bizcard" render={() => <BizCard />} />
         <Route path="/menu" render={() => <Menu />} />
