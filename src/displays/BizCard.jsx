@@ -5,7 +5,10 @@ const BizCard = () => {
   return (
     <div className="Display-BizCard">
 
-      <img className="center-fit" src={card} alt="business card" />
+      <img
+        style={{ width: `50vw`, marginLeft: `25vw` }}
+        className="center-fit"
+        src={card} alt="business card" />
 
     </div>
   )

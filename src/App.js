@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <div style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
+    <div style={{ backgroundImage: `url(${background})`, backgroundSize: '100%' }}>
       <div className="Header">
         <img src={logo} alt="logo of BarkTruck" />
       </div>
