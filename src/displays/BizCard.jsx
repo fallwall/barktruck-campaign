@@ -1,9 +1,10 @@
 import React from 'react';
 
-export default function BizCard() {
+const BizCard = () => {
   return (
     <div className="Display-BizCard">
-bizcard 
+      bizcard
     </div>
   )
 }
+export default BizCard;

@@ -1,9 +1,11 @@
 import React from 'react';
 
-export default function Menu() {
+const Menu = () => {
   return (
     <div className="Display-Menu">
       menu
     </div>
   )
 }
+
+export default Menu;

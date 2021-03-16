@@ -13,7 +13,12 @@ function App() {
       <div className="Header">
         <img src={logo} alt="logo of BarkTruck" />
       </div>
-      <div className="Navigation">just some randm nav thing</div>
+      <div className="Navigation">
+        <Link to="/"> Home </Link> |
+        <Link to="/insta"> InstaAd </Link> |
+        <Link to="/bizcard"> BizCard </Link> |
+        <Link to="/menu"> Menu </Link>
+      </div>
       <div className="Display">
         <Route exact path="/" render={() => <Insta />} />
         <Route path="/insta" render={() => <Insta />} />
